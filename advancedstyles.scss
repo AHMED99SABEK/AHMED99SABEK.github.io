@@ -1,0 +1,41 @@
+body{
+    background-image: url(https://science.nasa.gov/wp-content/uploads/2024/03/jupiter-marble-pia22946-16x9-1.jpg?resize=900,506);
+    background-size: 100%;
+}
+nav{
+    text-align: right;
+}
+a{
+    color: grey;
+}
+a :hover, a :active{
+    color: burlywood;
+}
+input[type="submit"]{
+    background-color: lightskyblue;
+    width: 140px;
+    height: 46px;
+    padding: 10px;
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+input[type="submit"]:hover, input[type="submit"]:active{
+    background-color: rgb(149, 229, 255);
+}
+input[type="text"]{
+    width: 554px;
+    height: 25px;
+    background-color: gray;
+    padding: 1px 8px 1px 8px;
+    justify-content: left;
+    margin: 10px;
+}
+input[type="text"]::placeholder{
+    color: white;
+}
+input[type="text"]:active, input[type="text"]::after{
+    background-color: white;
+}
